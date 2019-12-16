@@ -7,8 +7,12 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: black;
-  font-family: 'Solway', serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
+}
+
+header {
+  background-size: cover;
 }
 
 section {
@@ -17,6 +21,10 @@ section {
 
 h3 {
   margin-top: 80px;
+}
+
+h2 {
+  text-shadow: 2px 2px 5px grey;
 }
 
 .row {
@@ -54,7 +62,7 @@ h3 {
   display: inline-block;
   float: right;
   padding: 10px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .header {
@@ -76,6 +84,7 @@ h3 {
 h1 {
   margin-bottom: 50px;
   font-size: 58px;
+  text-shadow: 5px 5px 5px grey;
 }
 
 /* section services */
@@ -113,6 +122,10 @@ h1 {
   padding-top: 5px;
 }
 
+.text:hover {
+  cursor: pointer;
+}
+
 /* our portfolio */
 .cart-image {
   width: 100%;
@@ -124,6 +137,11 @@ h1 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.cart-image img:hover {
+  opacity: 0.6;
+  transition: 1s;
 }
 
 .section-our-portfolio {
@@ -154,6 +172,12 @@ h1 {
 }
 
 .footer p {
-  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.col-lg-6 ul {
+  text-align: center;
+  margin-right: 30px;
 }
 /*# sourceMappingURL=style.css.map */

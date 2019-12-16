@@ -8,14 +8,20 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: black;
-  font-family: "Solway", serif;
+  font-family: "Raleway", sans-serif;
   margin: 0 auto;
+}
+header {
+  background-size: cover;
 }
 section {
   padding: 30px 0;
 }
 h3 {
   margin-top: 80px;
+}
+h2 {
+  text-shadow: 2px 2px 5px grey;
 }
 .row {
   display: -ms-flexbox;
@@ -46,7 +52,7 @@ h3 {
   display: inline-block;
   float: right;
   padding: 10px;
-  margin-right: 30px;
+  margin-right: 10px;
 }
 .header {
   text-align: center;
@@ -65,6 +71,7 @@ h3 {
 h1 {
   margin-bottom: 50px;
   font-size: 58px;
+  text-shadow: 5px 5px 5px grey;
 }
 .header-section {
   text-align: center;
@@ -95,6 +102,9 @@ p {
   background-color: white;
   padding-top: 5px;
 }
+.text:hover {
+  cursor: pointer;
+}
 .cart-image {
   width: 100%;
   height: 300px;
@@ -103,6 +113,10 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.cart-image img:hover {
+  opacity: 0.6;
+  transition: 1s;
 }
 .section-our-portfolio {
   background-color: #dcdcdc;
@@ -127,5 +141,10 @@ p {
   display: inline-block;
 }
 .footer p {
-  float: left;
+  text-align: center;
+  padding-top: 10px;
+}
+.col-lg-6 ul {
+  text-align: center;
+  margin-right: 30px;
 }
