@@ -39,10 +39,14 @@ h2 {
   font-family: "Satisfy", cursive;
   font-size: 68px;
   text-decoration: none;
+  display: block;
+  text-align: center;
 }
 .navigation ul {
   margin-top: 30px;
   list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
 .navigation ul li a {
   text-decoration: none;
@@ -53,6 +57,7 @@ h2 {
   float: right;
   padding: 10px;
   margin-right: 10px;
+  float: none;
 }
 .header {
   text-align: center;
